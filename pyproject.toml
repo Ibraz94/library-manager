@@ -1,0 +1,13 @@
+[project]
+name = "library-manager"
+version = "0.1.1"
+description = "A Streamlit-based Library Manager"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.25.0"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
